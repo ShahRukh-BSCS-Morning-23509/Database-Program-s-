@@ -1,0 +1,18 @@
+CREATE TABLE Students (
+    StudentID NUMBER PRIMARY KEY,
+    Name VARCHAR2(50),
+    Age NUMBER(3),
+    Gender VARCHAR2(10)
+);
+
+INSERT INTO Students (StudentID, Name, Age, Gender)
+VALUES (1, 'Ali', 20, 'Male');
+
+INSERT INTO Students (StudentID, Name, Age, Gender)
+VALUES (2, 'Ayesha', 22, 'Female');
+ 
+UPDATE Students
+SET Gender = 'Female'
+WHERE StudentID = 1;
+
+SELECT * FROM Students;
