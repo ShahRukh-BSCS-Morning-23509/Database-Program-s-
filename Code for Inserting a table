@@ -1,0 +1,15 @@
+CREATE TABLE Students (
+    StudentID NUMBER PRIMARY KEY,
+    Name VARCHAR2(50),
+    Age NUMBER
+);
+
+ 
+INSERT INTO Students (StudentID, Name, Age)
+VALUES (1, 'Ali', 20);
+
+INSERT INTO Students (StudentID, Name, Age)
+VALUES (2, 'Sara', 22);
+
+SELECT * FROM Students;
+ 
