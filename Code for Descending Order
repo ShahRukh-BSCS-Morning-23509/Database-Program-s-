@@ -1,0 +1,15 @@
+CREATE TABLE Students (
+   StudentID NUMBER PRIMARY KEY,
+   Name VARCHAR2(50) NOT NULL
+);
+ 
+INSERT INTO Students (StudentID, Name)
+VALUES (1, 'Ali');
+
+INSERT INTO Students (StudentID, Name)
+VALUES (2, 'Sara');
+ 
+SELECT * FROM Students
+ORDER BY Name ASC;
+ 
+SELECT * FROM Students
