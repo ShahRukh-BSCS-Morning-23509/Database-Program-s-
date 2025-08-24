@@ -1,0 +1,16 @@
+CREATE TABLE Students (
+    StudentID NUMBER PRIMARY KEY,
+    Name VARCHAR2(50),
+    Age NUMBER(3),
+    Grade VARCHAR2(5)
+);
+
+ 
+INSERT INTO Students (StudentID, Name, Age, Grade) VALUES (1, 'Ali', 20, 'A');
+INSERT INTO Students (StudentID, Name, Age, Grade) VALUES (2, 'Sara', 22, 'B');
+INSERT INTO Students (StudentID, Name, Age, Grade) VALUES (3, 'Ahmed', 19, 'A');
+INSERT INTO Students (StudentID, Name, Age, Grade) VALUES (4, 'Zara', 21, 'C');
+
+ 
+SELECT * FROM Students
+ORDER BY Name ASC;
