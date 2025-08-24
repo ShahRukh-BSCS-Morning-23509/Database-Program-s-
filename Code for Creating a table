@@ -1,0 +1,19 @@
+CREATE TABLE Students (
+    StudentID NUMBER PRIMARY KEY,
+    Name VARCHAR2(50),
+    Grade VARCHAR2(10),
+    Department VARCHAR2(50)
+);
+ 
+INSERT INTO Students (StudentID, Name, Grade, Department)
+VALUES (1, 'Ali', 'A', 'Computer Science');
+
+INSERT INTO Students (StudentID, Name, Grade, Department)
+VALUES (2, 'Sara', 'B', 'Mathematics');
+
+INSERT INTO Students (StudentID, Name, Grade, Department)
+VALUES (3, 'Ahmed', 'A', 'Physics');
+ 
+SELECT Name, Grade, Department FROM Students;
+
+
